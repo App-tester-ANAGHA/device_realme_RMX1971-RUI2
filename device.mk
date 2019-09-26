@@ -179,7 +179,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.oplus
+    android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
