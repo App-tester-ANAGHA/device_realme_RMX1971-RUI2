@@ -267,9 +267,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
-# NFC/Secure Element
-PRODUCT_PACKAGES += android.hardware.secure_element@1.2.vendor
-
 # OMX
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
