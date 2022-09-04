@@ -2,9 +2,6 @@
 /mnt/vendor/persist/camera(/.*)?                       u:object_r:vendor_persist_camera_file:s0
 /mnt/vendor/persist/dual_camera_calibration(/.*)?      u:object_r:vendor_persist_camera_file:s0
 
-# Display
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.nicky    u:object_r:hal_lineage_livedisplay_qti_exec:s0
-
 # Engineering
 /mnt/vendor/persist/engineermode(/.*)?    u:object_r:vendor_persist_engineer_file:s0
 
@@ -18,12 +15,6 @@
 # Init
 /(odm|vendor/odm)/bin/init\.oplus\.sh    u:object_r:vendor_qti_init_shell_exec:s0
 
-# Light Hal
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light\-service\.nicky                      u:object_r:hal_light_default_exec:s0
-
-# Motor
-/sys/class/motor(/.*)         u:object_r:vendor_camera_motor_device:s0
-
 # MMC 
 /sys/devices/virtual/bdi/[0-999]+:[0-999]+/read_ahead_kb               u:object_r:sysfs_mmc_host:s0
 
@@ -36,9 +27,6 @@
 
 # Sharedmem
 /sys/devices/platform/soc/0.qcom,oembackup_sharedmem/uio/uio[0-9]+(/.*)?         u:object_r:sysfs_uio_file:s0
-
-# Touch
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.oplus    u:object_r:hal_lineage_touch_default_exec:s0
 
 # Widevine
 /(odm|vendor/odm)/bin/hw/android\.hardware\.drm@1\.3-service\.widevine    u:object_r:hal_drm_widevine_exec:s0

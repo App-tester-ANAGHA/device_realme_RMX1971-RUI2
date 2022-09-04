@@ -1,7 +1,6 @@
 # Camera
 type vendor_persist_camera_file, file_type;
 type vendor_proc_flash, fs_type, proc_type;
-type vendor_camera_motor_device, fs_type, file_type;
 
 # Devinfo
 type proc_devinfo, fs_type, proc_type;

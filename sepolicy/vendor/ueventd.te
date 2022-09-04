@@ -1,1 +1,0 @@
-allow ueventd vendor_camera_motor_device:file { relabelto };
