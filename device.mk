@@ -179,7 +179,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710
+    android.hardware.biometrics.fingerprint@2.1-service.nicky \
+    vendor.oppo.hardware.biometrics.fingerprint@2.1
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

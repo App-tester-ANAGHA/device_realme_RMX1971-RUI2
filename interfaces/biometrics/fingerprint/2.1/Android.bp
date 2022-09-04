@@ -3,7 +3,6 @@
 hidl_interface {
     name: "vendor.oppo.hardware.biometrics.fingerprint@2.1",
     root: "vendor.oppo.hardware",
-    vintf_fragments: ["vendor.oppo.hardware.biometrics.fingerprint@2.1-service.xml"],
     srcs: [
         "IBiometricsFingerprint.hal",
         "IBiometricsFingerprintClientCallback.hal",
