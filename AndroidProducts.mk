@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nicky.mk
+    $(LOCAL_DIR)/arrow_nicky.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nicky-user \
-    lineage_nicky-userdebug \
-    lineage_nicky-eng
+    arrow_nicky-user \
+    arrow_nicky-userdebug \
+    arrow_nicky-eng
